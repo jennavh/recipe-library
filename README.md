@@ -1,2 +1,2 @@
-# recipe-library
-genAI project to digitize mom's recipe book &amp; access recipes quickly based on cravings
+# Mom's Recipe Tool
+Mom is very indecisive on dinner, and has a lot of different go-to recipes she can choose from. I want to leverage AWS Bedrock to create a GenAI tool that she can enage with to help her narrow down which recipe she'd like to cook. It'll use RAG (via an S3 knowledge base) to pull from her library of recipes, and she will be able to specify certain ingredients or the culture of the dish to narrow down which one she wants.
